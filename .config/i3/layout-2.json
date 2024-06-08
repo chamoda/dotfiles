@@ -1,0 +1,74 @@
+{
+  "border": "normal",
+  "current_border_width": 3,
+  "floating": "auto_off",
+  "geometry": {
+    "height": 2460,
+    "width": 1914,
+    "x": 0,
+    "y": 0
+  },
+  "marks": [],
+  "name": "Mozilla Firefox",
+  "percent": 0.5,
+  "swallows": [
+    {
+      "class": "^firefox$"
+    }
+  ],
+  "type": "con"
+}
+
+{
+  "border": "normal",
+  "floating": "auto_off",
+  "layout": "splitv",
+  "marks": [],
+  "percent": 0.5,
+  "type": "con",
+  "nodes": [
+    {
+      "border": "normal",
+      "current_border_width": 3,
+      "floating": "auto_off",
+      "geometry": {
+        "height": 1009,
+        "width": 1072,
+        "x": 0,
+        "y": 0
+      },
+      "marks": [],
+      "name": "i3 - GNU Emacs at xps-13",
+      "percent": 0.707652451175767,
+      "swallows": [
+        {
+          "class": "^Emacs$",
+          "instance": "^emacs$"         
+        }
+      ],
+      "type": "con"
+    },
+    {
+      "border": "normal",
+      "current_border_width": 3,
+      "floating": "auto_off",
+      "geometry": {
+        "height": 2017,
+        "width": 2392,
+        "x": 0,
+        "y": 0
+      },
+      "marks": [],
+      "name": "chamoda@xps-13: ~/.config/i3",
+      "percent": 0.292347548824233,
+      "swallows": [
+        {
+          "class": "^Gnome\\-terminal$",
+          "instance": "^alacritty$"
+        }		
+      ],
+      "type": "con"
+    }
+  ]
+}
+

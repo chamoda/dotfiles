@@ -1,0 +1,21 @@
+{
+  "border": "normal",
+  "current_border_width": 3,
+  "floating": "auto_off",
+  "geometry": {
+    "height": 2460,
+    "width": 3834,
+    "x": 0,
+    "y": 0
+  },
+  "marks": [],
+  "name": "Inbox - chamoda@xaventra.com - Mozilla Thunderbird",
+  "percent": 1,
+  "swallows": [
+    {
+      "class": "^thunderbird$"
+    }
+  ],
+  "type": "con"
+}
+
