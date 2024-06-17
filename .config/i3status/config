@@ -13,6 +13,7 @@ general {
 
 order += "disk /"
 order += "memory"
+order += "load"
 order += "tztime local"
 order += "volume master"
 
@@ -30,7 +31,7 @@ disk "/" {
 }
 
 load {
-        format = "%1min"
+        format = "Load: %1min"
 }
 
 memory {
