@@ -1,0 +1,22 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "none",
+    "current_border_width": 3,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 666,
+       "width": 500,
+       "x": 0,
+       "y": 0
+    },
+    "marks": [],
+    "name": "Pomodoro",
+    "percent": 1,
+    "swallows": [
+       {
+         "class": "^Gnome\\-pomodoro$"
+       }
+    ],
+    "type": "con"
+}
+
