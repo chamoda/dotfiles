@@ -35,7 +35,7 @@ load {
 }
 
 memory {
-        memory_used_method = classical
+        memory_used_method = memavailable
         format = "Used Ram: %used"
         threshold_degraded = "1G"
         format_degraded = "MEMORY < %available"
