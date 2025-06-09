@@ -199,5 +199,5 @@ bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5%
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
 
 # Take screenshot, copy to clipboard and save to Pictures
-bindsym --release Print exec "scrot -s '%Y:%m:%d:%H:%M:%S.png' -e 'xclip -selection clipboard -t image/png -i $f && mv $f ~/Pictures'"
+bindsym --release Print exec "scrot -s '%Y:%m:%d:%H:%M:%S.png' -e 'xclip -selection clipboard -t image/png -i $f && cp $f ~/Pictures'"
 
